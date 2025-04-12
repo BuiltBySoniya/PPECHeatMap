@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_e83e17fd4635de4b74fb07a59f988d57 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js"></script>
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_e83e17fd4635de4b74fb07a59f988d57" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_e83e17fd4635de4b74fb07a59f988d57 = L.map(
+                "map_e83e17fd4635de4b74fb07a59f988d57",
+                {
+                    center: [26.7153, -80.0534],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 10,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_b5238b23fdfa2741e716a45c9ffc40cd = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_e83e17fd4635de4b74fb07a59f988d57);
+        
+    
+            var circle_f3b1c943e99b4f79b3c4226f8d872b98 = L.circle(
+                [26.7153, -80.0534],
+                {"bubblingMouseEvents": true, "color": "#eb2920ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#eb2920ff", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5000, "stroke": true, "weight": 3}
+            ).addTo(map_e83e17fd4635de4b74fb07a59f988d57);
+        
+    
+        var popup_9e894ab9d3102dd47273e41719de60fe = L.popup({"maxWidth": "100%"});
+
+        
+            var html_35ff03ca2fad4cd6a20da056772e1f30 = $(`<div id="html_35ff03ca2fad4cd6a20da056772e1f30" style="width: 100.0%; height: 100.0%;">Zip Code: 33401<br>Medicaid %: 65<br>Distance to Nearest PPEC: 5 miles</div>`)[0];
+            popup_9e894ab9d3102dd47273e41719de60fe.setContent(html_35ff03ca2fad4cd6a20da056772e1f30);
+        
+
+        circle_f3b1c943e99b4f79b3c4226f8d872b98.bindPopup(popup_9e894ab9d3102dd47273e41719de60fe)
+        ;
+
+        
+    
+    
+            var circle_d7135b63458d0fe1d1bfe6dd3a9e6cee = L.circle(
+                [26.7983, -80.0781],
+                {"bubblingMouseEvents": true, "color": "#fea245ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fea245ff", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5000, "stroke": true, "weight": 3}
+            ).addTo(map_e83e17fd4635de4b74fb07a59f988d57);
+        
+    
+        var popup_e409e8b173e46e2218797da5c481c8f0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_af825a76485533e0135ec54d3d3a4120 = $(`<div id="html_af825a76485533e0135ec54d3d3a4120" style="width: 100.0%; height: 100.0%;">Zip Code: 33403<br>Medicaid %: 55<br>Distance to Nearest PPEC: 3 miles</div>`)[0];
+            popup_e409e8b173e46e2218797da5c481c8f0.setContent(html_af825a76485533e0135ec54d3d3a4120);
+        
+
+        circle_d7135b63458d0fe1d1bfe6dd3a9e6cee.bindPopup(popup_e409e8b173e46e2218797da5c481c8f0)
+        ;
+
+        
+    
+    
+            var circle_120cf342a96cad1ef02060eac5eb991b = L.circle(
+                [26.6603, -80.0527],
+                {"bubblingMouseEvents": true, "color": "#fd6931ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fd6931ff", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5000, "stroke": true, "weight": 3}
+            ).addTo(map_e83e17fd4635de4b74fb07a59f988d57);
+        
+    
+        var popup_5729baa9fd2aca80f6393ec13b605c64 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_59c2b73fd8b28ec6d1daf478281f9a2a = $(`<div id="html_59c2b73fd8b28ec6d1daf478281f9a2a" style="width: 100.0%; height: 100.0%;">Zip Code: 33405<br>Medicaid %: 60<br>Distance to Nearest PPEC: 2 miles</div>`)[0];
+            popup_5729baa9fd2aca80f6393ec13b605c64.setContent(html_59c2b73fd8b28ec6d1daf478281f9a2a);
+        
+
+        circle_120cf342a96cad1ef02060eac5eb991b.bindPopup(popup_5729baa9fd2aca80f6393ec13b605c64)
+        ;
+
+        
+    
+    
+            var circle_e30b7b13a075de55f71905d61231b19b = L.circle(
+                [26.7403, -80.0728],
+                {"bubblingMouseEvents": true, "color": "#c30324ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#c30324ff", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5000, "stroke": true, "weight": 3}
+            ).addTo(map_e83e17fd4635de4b74fb07a59f988d57);
+        
+    
+        var popup_151abb299672e26894a4f563d9d158d6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1ed29a473c8b3ecb74f160aeb86f0dc0 = $(`<div id="html_1ed29a473c8b3ecb74f160aeb86f0dc0" style="width: 100.0%; height: 100.0%;">Zip Code: 33407<br>Medicaid %: 70<br>Distance to Nearest PPEC: 4 miles</div>`)[0];
+            popup_151abb299672e26894a4f563d9d158d6.setContent(html_1ed29a473c8b3ecb74f160aeb86f0dc0);
+        
+
+        circle_e30b7b13a075de55f71905d61231b19b.bindPopup(popup_151abb299672e26894a4f563d9d158d6)
+        ;
+
+        
+    
+    
+            var circle_45dd0d3679875334d2dea8ffe1a89ab0 = L.circle(
+                [26.7052, -80.0881],
+                {"bubblingMouseEvents": true, "color": "#d40f20ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d40f20ff", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5000, "stroke": true, "weight": 3}
+            ).addTo(map_e83e17fd4635de4b74fb07a59f988d57);
+        
+    
+        var popup_f0cb6acaa35ebe22dc2e38f585d75fa9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cf78531febe0b6e12315773713b71ece = $(`<div id="html_cf78531febe0b6e12315773713b71ece" style="width: 100.0%; height: 100.0%;">Zip Code: 33409<br>Medicaid %: 68<br>Distance to Nearest PPEC: 6 miles</div>`)[0];
+            popup_f0cb6acaa35ebe22dc2e38f585d75fa9.setContent(html_cf78531febe0b6e12315773713b71ece);
+        
+
+        circle_45dd0d3679875334d2dea8ffe1a89ab0.bindPopup(popup_f0cb6acaa35ebe22dc2e38f585d75fa9)
+        ;
+
+        
+    
+    
+            var circle_03b681beb476c651ff9f4886917aaf5a = L.circle(
+                [26.7196, -80.2102],
+                {"bubblingMouseEvents": true, "color": "#ffffccff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffffccff", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5000, "stroke": true, "weight": 3}
+            ).addTo(map_e83e17fd4635de4b74fb07a59f988d57);
+        
+    
+        var popup_acae78cd3ffe2c714416db4e925af686 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_16ea9876be93605b11261f41cd51e1e8 = $(`<div id="html_16ea9876be93605b11261f41cd51e1e8" style="width: 100.0%; height: 100.0%;">Zip Code: 33411<br>Medicaid %: 40<br>Distance to Nearest PPEC: 8 miles</div>`)[0];
+            popup_acae78cd3ffe2c714416db4e925af686.setContent(html_16ea9876be93605b11261f41cd51e1e8);
+        
+
+        circle_03b681beb476c651ff9f4886917aaf5a.bindPopup(popup_acae78cd3ffe2c714416db4e925af686)
+        ;
+
+        
+    
+    
+            var circle_108e44b613703a944aa2604614ba62b9 = L.circle(
+                [26.6861, -80.1455],
+                {"bubblingMouseEvents": true, "color": "#800026ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#800026ff", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5000, "stroke": true, "weight": 3}
+            ).addTo(map_e83e17fd4635de4b74fb07a59f988d57);
+        
+    
+        var popup_cdd884accb22a16fcf789e9ad84b1475 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_34c474b768bc0951169864e916d2c13a = $(`<div id="html_34c474b768bc0951169864e916d2c13a" style="width: 100.0%; height: 100.0%;">Zip Code: 33413<br>Medicaid %: 75<br>Distance to Nearest PPEC: 10 miles</div>`)[0];
+            popup_cdd884accb22a16fcf789e9ad84b1475.setContent(html_34c474b768bc0951169864e916d2c13a);
+        
+
+        circle_108e44b613703a944aa2604614ba62b9.bindPopup(popup_cdd884accb22a16fcf789e9ad84b1475)
+        ;
+
+        
+    
+    
+            var circle_b8508a7f5e127dc6ea8d3ef74f10be1c = L.circle(
+                [26.6564, -80.1271],
+                {"bubblingMouseEvents": true, "color": "#aa0026ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#aa0026ff", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5000, "stroke": true, "weight": 3}
+            ).addTo(map_e83e17fd4635de4b74fb07a59f988d57);
+        
+    
+        var popup_d34dcd654e69bf6546d873bda7e4a081 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7c43f4374bc14fdef19e963e4c3b38b7 = $(`<div id="html_7c43f4374bc14fdef19e963e4c3b38b7" style="width: 100.0%; height: 100.0%;">Zip Code: 33415<br>Medicaid %: 72<br>Distance to Nearest PPEC: 7 miles</div>`)[0];
+            popup_d34dcd654e69bf6546d873bda7e4a081.setContent(html_7c43f4374bc14fdef19e963e4c3b38b7);
+        
+
+        circle_b8508a7f5e127dc6ea8d3ef74f10be1c.bindPopup(popup_d34dcd654e69bf6546d873bda7e4a081)
+        ;
+
+        
+    
+    
+            var circle_d090408ac6948b6f8db1e35837f074bc = L.circle(
+                [26.7098, -80.1225],
+                {"bubblingMouseEvents": true, "color": "#8e0026ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#8e0026ff", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5000, "stroke": true, "weight": 3}
+            ).addTo(map_e83e17fd4635de4b74fb07a59f988d57);
+        
+    
+        var popup_290259467f4a5c356e92aba7dac971d7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1fe1c115ed7f8160ad53be9703a16073 = $(`<div id="html_1fe1c115ed7f8160ad53be9703a16073" style="width: 100.0%; height: 100.0%;">Zip Code: 33417<br>Medicaid %: 74<br>Distance to Nearest PPEC: 6 miles</div>`)[0];
+            popup_290259467f4a5c356e92aba7dac971d7.setContent(html_1fe1c115ed7f8160ad53be9703a16073);
+        
+
+        circle_d090408ac6948b6f8db1e35837f074bc.bindPopup(popup_290259467f4a5c356e92aba7dac971d7)
+        ;
+
+        
+    
+    
+            var circle_429ad1e16b4f9af7667aeae563456721 = L.circle(
+                [26.8636, -80.1339],
+                {"bubblingMouseEvents": true, "color": "#fece6aff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fece6aff", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5000, "stroke": true, "weight": 3}
+            ).addTo(map_e83e17fd4635de4b74fb07a59f988d57);
+        
+    
+        var popup_88d9938e286a4bf6e89b1b0e7c7ab2bf = L.popup({"maxWidth": "100%"});
+
+        
+            var html_50b265f978792b25cebae8b0d62aa976 = $(`<div id="html_50b265f978792b25cebae8b0d62aa976" style="width: 100.0%; height: 100.0%;">Zip Code: 33418<br>Medicaid %: 50<br>Distance to Nearest PPEC: 9 miles</div>`)[0];
+            popup_88d9938e286a4bf6e89b1b0e7c7ab2bf.setContent(html_50b265f978792b25cebae8b0d62aa976);
+        
+
+        circle_429ad1e16b4f9af7667aeae563456721.bindPopup(popup_88d9938e286a4bf6e89b1b0e7c7ab2bf)
+        ;
+
+        
+    
+    
+    var color_map_578b36033404d0fa954fda31f63cd904 = {};
+
+    
+    color_map_578b36033404d0fa954fda31f63cd904.color = d3.scale.threshold()
+              .domain([40.0, 40.07014028056112, 40.140280561122246, 40.210420841683366, 40.28056112224449, 40.35070140280561, 40.42084168336673, 40.49098196392786, 40.56112224448898, 40.6312625250501, 40.701402805611224, 40.77154308617234, 40.84168336673347, 40.91182364729459, 40.98196392785571, 41.052104208416836, 41.122244488977955, 41.192384769539075, 41.2625250501002, 41.33266533066132, 41.40280561122245, 41.47294589178357, 41.54308617234469, 41.61322645290581, 41.68336673346693, 41.75350701402806, 41.82364729458918, 41.8937875751503, 41.963927855711425, 42.034068136272545, 42.104208416833664, 42.17434869739479, 42.24448897795591, 42.31462925851704, 42.38476953907816, 42.454909819639276, 42.5250501002004, 42.59519038076152, 42.66533066132264, 42.73547094188377, 42.80561122244489, 42.875751503006015, 42.945891783567134, 43.016032064128254, 43.08617234468938, 43.1563126252505, 43.22645290581163, 43.296593186372746, 43.366733466933866, 43.43687374749499, 43.50701402805611, 43.57715430861723, 43.64729458917836, 43.71743486973948, 43.787575150300604, 43.857715430861724, 43.92785571142284, 43.99799599198397, 44.06813627254509, 44.13827655310621, 44.208416833667336, 44.278557114228455, 44.34869739478958, 44.4188376753507, 44.48897795591182, 44.55911823647295, 44.62925851703407, 44.699398797595194, 44.76953907815631, 44.83967935871743, 44.90981963927856, 44.97995991983968, 45.0501002004008, 45.120240480961925, 45.190380761523045, 45.260521042084164, 45.33066132264529, 45.40080160320641, 45.47094188376754, 45.54108216432866, 45.611222444889776, 45.6813627254509, 45.75150300601202, 45.82164328657315, 45.89178356713427, 45.96192384769539, 46.032064128256515, 46.102204408817634, 46.17234468937876, 46.24248496993988, 46.312625250501, 46.38276553106213, 46.452905811623246, 46.523046092184366, 46.59318637274549, 46.66332665330661, 46.73346693386773, 46.80360721442886, 46.87374749498998, 46.943887775551104, 47.014028056112224, 47.08416833667334, 47.15430861723447, 47.22444889779559, 47.294589178356716, 47.364729458917836, 47.434869739478955, 47.50501002004008, 47.5751503006012, 47.64529058116233, 47.71543086172345, 47.78557114228457, 47.855711422845694, 47.92585170340681, 47.99599198396793, 48.06613226452906, 48.13627254509018, 48.2064128256513, 48.276553106212425, 48.346693386773545, 48.41683366733467, 48.48697394789579, 48.55711422845691, 48.62725450901804, 48.69739478957916, 48.76753507014028, 48.8376753507014, 48.90781563126252, 48.97795591182365, 49.04809619238477, 49.118236472945895, 49.188376753507015, 49.258517034068134, 49.32865731462926, 49.39879759519038, 49.46893787575151, 49.53907815631263, 49.609218436873746, 49.679358717434866, 49.74949899799599, 49.81963927855711, 49.88977955911824, 49.95991983967936, 50.03006012024048, 50.100200400801604, 50.170340681362724, 50.24048096192385, 50.31062124248497, 50.38076152304609, 50.450901803607216, 50.521042084168336, 50.59118236472946, 50.66132264529058, 50.7314629258517, 50.80160320641283, 50.87174348697395, 50.941883767535074, 51.012024048096194, 51.08216432865731, 51.15230460921843, 51.22244488977956, 51.29258517034068, 51.362725450901806, 51.432865731462925, 51.503006012024045, 51.57314629258517, 51.64328657314629, 51.71342685370742, 51.78356713426854, 51.85370741482966, 51.92384769539078, 51.9939879759519, 52.06412825651303, 52.13426853707415, 52.20440881763527, 52.274549098196395, 52.344689378757515, 52.41482965931864, 52.48496993987976, 52.55511022044088, 52.625250501002, 52.69539078156313, 52.765531062124246, 52.83567134268537, 52.90581162324649, 52.97595190380761, 53.04609218436874, 53.11623246492986, 53.186372745490985, 53.256513026052104, 53.326653306613224, 53.39679358717435, 53.46693386773547, 53.5370741482966, 53.607214428857716, 53.677354709418836, 53.74749498997996, 53.81763527054108, 53.88777555110221, 53.95791583166333, 54.02805611222445, 54.09819639278557, 54.168336673346694, 54.23847695390781, 54.30861723446894, 54.37875751503006, 54.44889779559118, 54.519038076152306, 54.589178356713425, 54.65931863727455, 54.72945891783567, 54.79959919839679, 54.86973947895792, 54.93987975951904, 55.010020040080164, 55.08016032064128, 55.1503006012024, 55.22044088176353, 55.29058116232465, 55.360721442885776, 55.430861723446895, 55.501002004008015, 55.571142284569135, 55.64128256513026, 55.71142284569138, 55.78156312625251, 55.85170340681363, 55.921843687374746, 55.99198396793587, 56.06212424849699, 56.13226452905812, 56.20240480961924, 56.27254509018036, 56.34268537074148, 56.412825651302605, 56.48296593186373, 56.55310621242485, 56.62324649298597, 56.69338677354709, 56.763527054108216, 56.83366733466934, 56.90380761523046, 56.97394789579158, 57.0440881763527, 57.11422845691383, 57.184368737474955, 57.254509018036075, 57.324649298597194, 57.394789579158314, 57.46492985971944, 57.53507014028056, 57.605210420841686, 57.675350701402806, 57.745490981963925, 57.815631262525045, 57.88577154308617, 57.9559118236473, 58.02605210420842, 58.09619238476954, 58.16633266533066, 58.236472945891784, 58.30661322645291, 58.37675350701403, 58.44689378757515, 58.51703406813627, 58.587174348697395, 58.65731462925852, 58.72745490981964, 58.79759519038076, 58.86773547094188, 58.93787575150301, 59.00801603206413, 59.078156312625254, 59.14829659318637, 59.21843687374749, 59.28857715430861, 59.35871743486974, 59.428857715430865, 59.498997995991985, 59.569138276553105, 59.639278557114224, 59.70941883767535, 59.77955911823648, 59.8496993987976, 59.91983967935872, 59.989979959919836, 60.06012024048096, 60.13026052104209, 60.20040080160321, 60.27054108216433, 60.34068136272545, 60.410821643286575, 60.480961923847694, 60.55110220440882, 60.62124248496994, 60.69138276553106, 60.76152304609218, 60.831663326653306, 60.90180360721443, 60.97194388777555, 61.04208416833667, 61.11222444889779, 61.18236472945892, 61.252505010020045, 61.322645290581164, 61.392785571142284, 61.4629258517034, 61.53306613226453, 61.60320641282566, 61.673346693386776, 61.743486973947896, 61.813627254509015, 61.88376753507014, 61.95390781563126, 62.02404809619239, 62.09418837675351, 62.16432865731463, 62.23446893787575, 62.30460921843687, 62.374749498998, 62.44488977955912, 62.51503006012024, 62.58517034068136, 62.655310621242485, 62.72545090180361, 62.79559118236473, 62.86573146292585, 62.93587174348697, 63.0060120240481, 63.076152304609224, 63.14629258517034, 63.21643286573146, 63.28657314629258, 63.35671342685371, 63.42685370741483, 63.496993987975955, 63.567134268537075, 63.637274549098194, 63.707414829659314, 63.77755511022044, 63.84769539078157, 63.91783567134269, 63.987975951903806, 64.05811623246493, 64.12825651302606, 64.19839679358718, 64.2685370741483, 64.33867735470942, 64.40881763527054, 64.47895791583167, 64.54909819639279, 64.61923847695391, 64.68937875751503, 64.75951903807615, 64.82965931863728, 64.89979959919839, 64.96993987975952, 65.04008016032064, 65.11022044088176, 65.18036072144288, 65.250501002004, 65.32064128256513, 65.39078156312625, 65.46092184368737, 65.53106212424849, 65.60120240480961, 65.67134268537075, 65.74148296593187, 65.81162324649299, 65.8817635270541, 65.95190380761522, 66.02204408817636, 66.09218436873748, 66.1623246492986, 66.23246492985972, 66.30260521042084, 66.37274549098197, 66.44288577154309, 66.51302605210421, 66.58316633266533, 66.65330661322645, 66.72344689378758, 66.7935871743487, 66.86372745490982, 66.93386773547094, 67.00400801603206, 67.0741482965932, 67.14428857715431, 67.21442885771543, 67.28456913827655, 67.35470941883767, 67.4248496993988, 67.49498997995993, 67.56513026052104, 67.63527054108216, 67.70541082164328, 67.77555110220442, 67.84569138276552, 67.91583166332666, 67.98597194388778, 68.0561122244489, 68.12625250501002, 68.19639278557113, 68.26653306613227, 68.33667334669339, 68.40681362725451, 68.47695390781563, 68.54709418837675, 68.61723446893788, 68.687374749499, 68.75751503006012, 68.82765531062124, 68.89779559118236, 68.96793587174349, 69.03807615230461, 69.10821643286573, 69.17835671342685, 69.24849699398797, 69.3186372745491, 69.38877755511022, 69.45891783567134, 69.52905811623246, 69.59919839679358, 69.66933867735472, 69.73947895791584, 69.80961923847696, 69.87975951903807, 69.9498997995992, 70.02004008016033, 70.09018036072145, 70.16032064128257, 70.23046092184369, 70.3006012024048, 70.37074148296594, 70.44088176352706, 70.51102204408818, 70.5811623246493, 70.65130260521042, 70.72144288577155, 70.79158316633266, 70.86172344689379, 70.93186372745491, 71.00200400801603, 71.07214428857715, 71.14228456913827, 71.2124248496994, 71.28256513026052, 71.35270541082164, 71.42284569138276, 71.49298597194388, 71.56312625250501, 71.63326653306613, 71.70340681362725, 71.77354709418837, 71.84368737474949, 71.91382765531063, 71.98396793587175, 72.05410821643287, 72.12424849699399, 72.1943887775551, 72.26452905811624, 72.33466933867736, 72.40480961923848, 72.4749498997996, 72.54509018036072, 72.61523046092185, 72.68537074148296, 72.75551102204409, 72.82565130260521, 72.89579158316633, 72.96593186372746, 73.03607214428857, 73.1062124248497, 73.17635270541082, 73.24649298597194, 73.31663326653307, 73.38677354709418, 73.45691382765531, 73.52705410821643, 73.59719438877755, 73.66733466933869, 73.73747494989979, 73.80761523046093, 73.87775551102204, 73.94789579158316, 74.0180360721443, 74.0881763527054, 74.15831663326654, 74.22845691382766, 74.29859719438878, 74.36873747494991, 74.43887775551102, 74.50901803607215, 74.57915831663327, 74.64929859719439, 74.71943887775551, 74.78957915831663, 74.85971943887776, 74.92985971943888, 75.0])
+              .range(['#ffffccff', '#ffffccff', '#ffffcbff', '#ffffcaff', '#fffec9ff', '#fffec9ff', '#fffec8ff', '#fffdc7ff', '#fffdc7ff', '#fffdc6ff', '#fffdc5ff', '#fffcc5ff', '#fffcc4ff', '#fffcc3ff', '#fffbc2ff', '#fffbc2ff', '#fffbc1ff', '#fffbc0ff', '#fffac0ff', '#fffabfff', '#fffabeff', '#fff9bdff', '#fff9bdff', '#fff9bcff', '#fff9bbff', '#fff8bbff', '#fff8baff', '#fff8b9ff', '#fff7b8ff', '#fff7b8ff', '#fff7b7ff', '#fff7b6ff', '#fff6b6ff', '#fff6b5ff', '#fff6b4ff', '#fff5b4ff', '#fff5b3ff', '#fff5b2ff', '#fff4b1ff', '#fff4b1ff', '#fff4b0ff', '#fff4afff', '#fff3afff', '#fff3aeff', '#fff3adff', '#fff2acff', '#fff2acff', '#fff2abff', '#fff2aaff', '#fff1aaff', '#fff1a9ff', '#fff1a8ff', '#fff0a7ff', '#fff0a7ff', '#fff0a6ff', '#fff0a5ff', '#ffefa5ff', '#ffefa4ff', '#ffefa3ff', '#ffeea3ff', '#ffeea2ff', '#ffeea1ff', '#ffeea0ff', '#ffeda0ff', '#ffed9fff', '#ffed9eff', '#ffec9eff', '#ffec9dff', '#ffec9cff', '#ffeb9cff', '#ffeb9bff', '#ffeb9aff', '#ffea9aff', '#ffea99ff', '#ffea98ff', '#ffe998ff', '#ffe997ff', '#ffe996ff', '#ffe896ff', '#ffe895ff', '#ffe894ff', '#ffe794ff', '#ffe793ff', '#ffe792ff', '#ffe692ff', '#ffe691ff', '#ffe690ff', '#ffe68fff', '#ffe58fff', '#ffe58eff', '#ffe58dff', '#ffe48dff', '#ffe48cff', '#ffe48bff', '#ffe38bff', '#ffe38aff', '#ffe389ff', '#ffe289ff', '#ffe288ff', '#ffe287ff', '#ffe187ff', '#ffe186ff', '#ffe185ff', '#ffe085ff', '#ffe084ff', '#ffe083ff', '#ffdf83ff', '#ffdf82ff', '#ffdf81ff', '#ffde81ff', '#ffde80ff', '#ffde7fff', '#ffdd7fff', '#ffdd7eff', '#ffdd7dff', '#ffdc7dff', '#ffdc7cff', '#ffdc7bff', '#ffdc7bff', '#ffdb7aff', '#ffdb79ff', '#ffdb78ff', '#ffda78ff', '#ffda77ff', '#ffda76ff', '#fed976ff', '#fed975ff', '#fed874ff', '#fed774ff', '#fed773ff', '#fed672ff', '#fed572ff', '#fed571ff', '#fed470ff', '#fed470ff', '#fed36fff', '#fed26eff', '#fed26eff', '#fed16dff', '#fed06cff', '#fed06cff', '#fecf6bff', '#fecf6aff', '#fece6aff', '#fecd69ff', '#fecd68ff', '#fecc68ff', '#fecb67ff', '#fecb66ff', '#feca66ff', '#feca65ff', '#fec964ff', '#fec864ff', '#fec863ff', '#fec762ff', '#fec662ff', '#fec661ff', '#fec560ff', '#fec45fff', '#fec45fff', '#fec35eff', '#fec35dff', '#fec25dff', '#fec15cff', '#fec15bff', '#fec05bff', '#febf5aff', '#febf59ff', '#febe59ff', '#febe58ff', '#febd57ff', '#febc57ff', '#febc56ff', '#febb55ff', '#feba55ff', '#feba54ff', '#feb953ff', '#feb953ff', '#feb852ff', '#feb751ff', '#feb751ff', '#feb650ff', '#feb54fff', '#feb54fff', '#feb44eff', '#feb44dff', '#feb34dff', '#feb24cff', '#feb24cff', '#feb14bff', '#feb04bff', '#feb04bff', '#feaf4bff', '#feaf4aff', '#feae4aff', '#feae4aff', '#fead4aff', '#feac49ff', '#feac49ff', '#feab49ff', '#feab48ff', '#feaa48ff', '#fea948ff', '#fea948ff', '#fea847ff', '#fea847ff', '#fea747ff', '#fea647ff', '#fea646ff', '#fea546ff', '#fea546ff', '#fea446ff', '#fea345ff', '#fea345ff', '#fea245ff', '#fea245ff', '#fea144ff', '#fea044ff', '#fea044ff', '#fe9f44ff', '#fe9f43ff', '#fe9e43ff', '#fe9d43ff', '#fe9d43ff', '#fe9c42ff', '#fe9c42ff', '#fe9b42ff', '#fe9a42ff', '#fe9a41ff', '#fe9941ff', '#fe9941ff', '#fe9840ff', '#fe9740ff', '#fe9740ff', '#fe9640ff', '#fe963fff', '#fe953fff', '#fe943fff', '#fe943fff', '#fe933eff', '#fe933eff', '#fe923eff', '#fe923eff', '#fe913dff', '#fe903dff', '#fe903dff', '#fe8f3dff', '#fe8f3cff', '#fe8e3cff', '#fe8d3cff', '#fd8d3cff', '#fd8c3bff', '#fd8b3bff', '#fd8a3bff', '#fd883aff', '#fd873aff', '#fd863aff', '#fd853aff', '#fd8439ff', '#fd8339ff', '#fd8239ff', '#fd8138ff', '#fd8038ff', '#fd7f38ff', '#fd7e38ff', '#fd7d37ff', '#fd7c37ff', '#fd7b37ff', '#fd7a36ff', '#fd7936ff', '#fd7836ff', '#fd7736ff', '#fd7635ff', '#fd7535ff', '#fd7435ff', '#fd7334ff', '#fd7234ff', '#fd7134ff', '#fd7033ff', '#fd6f33ff', '#fd6e33ff', '#fd6d33ff', '#fd6c32ff', '#fd6b32ff', '#fd6a32ff', '#fd6931ff', '#fd6831ff', '#fd6731ff', '#fd6631ff', '#fd6530ff', '#fd6430ff', '#fd6330ff', '#fd622fff', '#fd612fff', '#fd602fff', '#fd5f2fff', '#fd5e2eff', '#fd5d2eff', '#fd5c2eff', '#fd5b2dff', '#fd5a2dff', '#fd592dff', '#fd582dff', '#fd572cff', '#fd562cff', '#fd552cff', '#fd542bff', '#fd532bff', '#fd522bff', '#fd512aff', '#fd502aff', '#fd4f2aff', '#fc4e2aff', '#fc4d29ff', '#fc4c29ff', '#fb4b29ff', '#fb4a29ff', '#fa4a29ff', '#fa4928ff', '#fa4828ff', '#f94728ff', '#f94628ff', '#f84527ff', '#f84427ff', '#f84427ff', '#f74327ff', '#f74226ff', '#f64126ff', '#f64026ff', '#f63f26ff', '#f53f26ff', '#f53e25ff', '#f43d25ff', '#f43c25ff', '#f43b25ff', '#f33a24ff', '#f33a24ff', '#f23924ff', '#f23824ff', '#f23724ff', '#f13623ff', '#f13523ff', '#f03523ff', '#f03423ff', '#f03322ff', '#ef3222ff', '#ef3122ff', '#ee3022ff', '#ee3022ff', '#ee2f21ff', '#ed2e21ff', '#ed2d21ff', '#ec2c21ff', '#ec2b20ff', '#ec2b20ff', '#eb2a20ff', '#eb2920ff', '#ea281fff', '#ea271fff', '#ea261fff', '#e9261fff', '#e9251fff', '#e8241eff', '#e8231eff', '#e8221eff', '#e7211eff', '#e7211dff', '#e6201dff', '#e61f1dff', '#e61e1dff', '#e51d1dff', '#e51c1cff', '#e41b1cff', '#e41b1cff', '#e31a1cff', '#e3191cff', '#e2191cff', '#e2181cff', '#e1181cff', '#e0181cff', '#e0171dff', '#df171dff', '#df161dff', '#de161dff', '#dd161dff', '#dd151dff', '#dc151eff', '#dc141eff', '#db141eff', '#da131eff', '#da131eff', '#d9131eff', '#d9121eff', '#d8121fff', '#d7111fff', '#d7111fff', '#d6111fff', '#d5101fff', '#d5101fff', '#d40f20ff', '#d40f20ff', '#d30e20ff', '#d20e20ff', '#d20e20ff', '#d10d20ff', '#d10d21ff', '#d00c21ff', '#cf0c21ff', '#cf0b21ff', '#ce0b21ff', '#ce0b21ff', '#cd0a22ff', '#cc0a22ff', '#cc0922ff', '#cb0922ff', '#ca0922ff', '#ca0822ff', '#c90822ff', '#c90723ff', '#c80723ff', '#c70623ff', '#c70623ff', '#c60623ff', '#c60523ff', '#c50524ff', '#c40424ff', '#c40424ff', '#c30424ff', '#c30324ff', '#c20324ff', '#c10225ff', '#c10225ff', '#c00125ff', '#bf0125ff', '#bf0125ff', '#be0025ff', '#be0026ff', '#bd0026ff', '#bc0026ff', '#bb0026ff', '#ba0026ff', '#b90026ff', '#b80026ff', '#b70026ff', '#b60026ff', '#b50026ff', '#b40026ff', '#b30026ff', '#b20026ff', '#b10026ff', '#b00026ff', '#af0026ff', '#ae0026ff', '#ad0026ff', '#ac0026ff', '#ab0026ff', '#aa0026ff', '#a90026ff', '#a80026ff', '#a70026ff', '#a60026ff', '#a50026ff', '#a40026ff', '#a30026ff', '#a20026ff', '#a10026ff', '#a00026ff', '#9f0026ff', '#9e0026ff', '#9d0026ff', '#9c0026ff', '#9b0026ff', '#9b0026ff', '#9a0026ff', '#990026ff', '#980026ff', '#970026ff', '#960026ff', '#950026ff', '#940026ff', '#930026ff', '#920026ff', '#910026ff', '#900026ff', '#8f0026ff', '#8e0026ff', '#8d0026ff', '#8c0026ff', '#8b0026ff', '#8a0026ff', '#890026ff', '#880026ff', '#870026ff', '#860026ff', '#850026ff', '#840026ff', '#830026ff', '#820026ff', '#810026ff', '#800026ff']);
+    
+
+    color_map_578b36033404d0fa954fda31f63cd904.x = d3.scale.linear()
+              .domain([40.0, 75.0])
+              .range([0, 450 - 50]);
+
+    color_map_578b36033404d0fa954fda31f63cd904.legend = L.control({position: 'topright'});
+    color_map_578b36033404d0fa954fda31f63cd904.legend.onAdd = function (map) {var div = L.DomUtil.create('div', 'legend'); return div};
+    color_map_578b36033404d0fa954fda31f63cd904.legend.addTo(map_e83e17fd4635de4b74fb07a59f988d57);
+
+    color_map_578b36033404d0fa954fda31f63cd904.xAxis = d3.svg.axis()
+        .scale(color_map_578b36033404d0fa954fda31f63cd904.x)
+        .orient("top")
+        .tickSize(1)
+        .tickValues([40.0, 44.375, 48.75, 53.125, 57.5, 61.875, 66.25, 70.625, 75.0]);
+
+    color_map_578b36033404d0fa954fda31f63cd904.svg = d3.select(".legend.leaflet-control").append("svg")
+        .attr("id", 'legend')
+        .attr("width", 450)
+        .attr("height", 40);
+
+    color_map_578b36033404d0fa954fda31f63cd904.g = color_map_578b36033404d0fa954fda31f63cd904.svg.append("g")
+        .attr("class", "key")
+        .attr("fill", "black")
+        .attr("transform", "translate(25,16)");
+
+    color_map_578b36033404d0fa954fda31f63cd904.g.selectAll("rect")
+        .data(color_map_578b36033404d0fa954fda31f63cd904.color.range().map(function(d, i) {
+          return {
+            x0: i ? color_map_578b36033404d0fa954fda31f63cd904.x(color_map_578b36033404d0fa954fda31f63cd904.color.domain()[i - 1]) : color_map_578b36033404d0fa954fda31f63cd904.x.range()[0],
+            x1: i < color_map_578b36033404d0fa954fda31f63cd904.color.domain().length ? color_map_578b36033404d0fa954fda31f63cd904.x(color_map_578b36033404d0fa954fda31f63cd904.color.domain()[i]) : color_map_578b36033404d0fa954fda31f63cd904.x.range()[1],
+            z: d
+          };
+        }))
+      .enter().append("rect")
+        .attr("height", 40 - 30)
+        .attr("x", function(d) { return d.x0; })
+        .attr("width", function(d) { return d.x1 - d.x0; })
+        .style("fill", function(d) { return d.z; });
+
+    color_map_578b36033404d0fa954fda31f63cd904.g.call(color_map_578b36033404d0fa954fda31f63cd904.xAxis).append("text")
+        .attr("class", "caption")
+        .attr("y", 21)
+        .attr("fill", "black")
+        .text("Estimated Medicaid % by Zip Code");
+</script>
+</html>
