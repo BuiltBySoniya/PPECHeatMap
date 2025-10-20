@@ -1,4 +1,4 @@
-🧠 AI-Powered Zip-Code Expansion Strategy — PPEC of Palm Beach
+# 🧠 AI-Powered Zip-Code Expansion Strategy — PPEC of Palm Beach
 🌍 Overview
 
 This project builds an AI-driven geographic expansion model for Prescribed Pediatric Extended Care (PPEC) of Palm Beach, which had reached capacity.
@@ -6,7 +6,7 @@ Using public health and socioeconomic data, I designed a zip-code-level clusteri
 
 📘 View Heatmap + Case Study on GitHub →
 
-🧩 Problem Statement
+## 🧩 Problem Statement
 
 PPEC centers faced the challenge of expanding without compromising care quality.
 Leadership needed a scalable, data-backed approach to answer three critical questions:
@@ -16,9 +16,9 @@ Which areas should be prioritized for outreach and expansion?
 How can resources (staff, transport, funding) be allocated most effectively?
 
 
-🔍 Approach
+## 🔍 Approach
 
-1️⃣ Data Collection + Integration
+### 1️⃣ Data Collection + Integration
 
 Gathered multi-source public data at the zip-code level, including:
 
@@ -27,19 +27,19 @@ Household income levels
 Medicaid percentage and insurance coverage
 Distance to existing PPEC centers
 
-2️⃣ AI Clustering & Modeling
+### 2️⃣ AI Clustering & Modeling
 
 Applied K-Means clustering to segment Florida zip codes by opportunity.
 Categorized regions into 🟢 High Potential, 🟠 Moderate Potential, and 🔴 Low/Saturated zones.
 Used statistical weighting to combine socioeconomic and accessibility variables for better prioritization.
 
-3️⃣ Visualization & Mapping
+### 3️⃣ Visualization & Mapping
 
 Built an interactive Folium heatmap displaying geographic clusters and service gaps.
 Added color-coded overlays for clear executive communication.
 Automated data refresh through AWS Lambda and Amazon S3 for recurring updates.
 
-4️⃣ Insights & Recommendations
+### 4️⃣ Insights & Recommendations
 
 Generated five actionable insights that informed expansion strategy:
 
@@ -49,14 +49,14 @@ AI clustering supports franchise targeting, not just new center builds.
 Zip-level precision enables hyperlocal marketing with better ROI.
 Resource load optimization ensures balanced outreach, staff, and transportation planning.
 
-5️⃣ Strategy Framework
+### 5️⃣ Strategy Framework
 
 Developed two implementation tracks for leadership execution:
 Resource Allocation Plan: Grouped zip codes into High, Moderate, and Low priority clusters for staffing and outreach.
 White Space Zone Playbook: Identified untapped regions ideal for mobile PPEC units, school tie-ups, and community program expansion.
 
 
-⚙️ Tech Stack
+## ⚙️ Tech Stack
 
 AWS Services:
 
@@ -72,7 +72,7 @@ AWS Glue
 
 Amazon EC2
 
-Technical Tools:
+## ⚙️Technical Tools:
 
 Python
 
@@ -82,7 +82,7 @@ Scikit-Learn
 
 US Census Data + Florida AHCA APIs
 
-Skills Applied:
+## ⚙️Skills Applied:
 
 AI Clustering & Predictive Modeling
 
@@ -93,7 +93,7 @@ Public Health Analytics
 Strategic Growth Planning
 
 
-📈 Results
+## 📈 Results
 
 Key Improvements Achieved:
 
@@ -105,7 +105,7 @@ Key Improvements Achieved:
 
 ✅ ROI on Expansion: Projected 2.3× return on the pilot phase
 
-🧠 Business Impact
+## 🧠 Business Impact
 
 This project enabled PPEC of Palm Beach to:
 
