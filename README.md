@@ -61,24 +61,35 @@ White Space Zone Playbook: Identified untapped regions ideal for mobile PPEC uni
 AWS Services:
 
 Amazon S3
+
 AWS Lambda
+
 Amazon SageMaker
+
 Amazon QuickSight
+
 AWS Glue
+
 Amazon EC2
 
 Technical Tools:
 
 Python
+
 Folium
+
 Scikit-Learn
+
 US Census Data + Florida AHCA APIs
 
 Skills Applied:
 
 AI Clustering & Predictive Modeling
+
 Geo-Spatial Data Visualization
+
 Public Health Analytics
+
 Strategic Growth Planning
 
 
@@ -87,8 +98,11 @@ Strategic Growth Planning
 Key Improvements Achieved:
 
 ✅ Community Coverage: Expanded from 3 centers to 15 high-impact zones
+
 ✅ Outreach Efficiency: Increased targeting precision by 40%
+
 ✅ Resource Utilization: Shifted from manual allocation to fully data-driven prioritization
+
 ✅ ROI on Expansion: Projected 2.3× return on the pilot phase
 
 🧠 Business Impact
