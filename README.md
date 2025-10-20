@@ -18,6 +18,7 @@ Which areas should be prioritized for outreach and facility expansion?
 How can resources (staff, transport, funding) be allocated most effectively?
 
 🔍 Approach
+ 
  1> Data Collection + Integration
 
 Gathered multi-source public data at the zip-code level, including:
