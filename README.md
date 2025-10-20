@@ -18,7 +18,7 @@ Which areas should be prioritized for outreach and facility expansion?
 How can resources (staff, transport, funding) be allocated most effectively?
 
 🔍 Approach
-1. Data Collection + Integration
+ 1> Data Collection + Integration
 
 Gathered multi-source public data at the zip-code level, including:
 
@@ -30,7 +30,7 @@ Medicaid % and insurance coverage
 
 Distance to existing PPEC centers
 
-2. AI Clustering & Modeling
+2> AI Clustering & Modeling
 
 Applied K-Means clustering to segment Florida zip codes by opportunity.
 
@@ -38,7 +38,7 @@ Categorized zones into 🟢 High, 🟠 Moderate, and 🔴 Low potential.
 
 Used statistical weighting to combine socioeconomic and access variables.
 
-3. Visualization & Mapping
+3> Visualization & Mapping
 
 Built an interactive Folium heatmap to display geographic clusters.
 
@@ -46,27 +46,28 @@ Integrated color-coded opportunity overlays for executive review.
 
 Automated data refresh through AWS Lambda + S3 pipelines.
 
-4. Insights & Recommendations
+4> Insights & Recommendations
 
-Generated five actionable insights:
+>>> Generated five actionable insights:
 
-Zip codes 33413, 33415 & 33417 = high potential, low service.
+>Zip codes 33413, 33415 & 33417 = high potential, low service.
 
-“White space” zones have high Medicaid coverage but no centers.
+>“White space” zones have high Medicaid coverage but no centers.
 
-AI clustering supports franchise targeting, not just new builds.
+>AI clustering supports franchise targeting, not just new builds.
 
-Zip-level precision enables hyperlocal marketing ROI.
+>Zip-level precision enables hyperlocal marketing ROI.
 
-Resource load can be optimized by zone priority.
+>Resource load can be optimized by zone priority.
 
-5. Strategy Framework
+5> Strategy Framework
 
 Developed two implementation tracks:
 
 Resource Allocation Plan: Grouped zip codes into High/Moderate/Low priority for staffing & outreach.
 
 White Space Zone Playbook: Identified untapped regions ideal for mobile PPEC units and school partnerships.
+
 
 ⚙️ Tech Stack
 
@@ -84,7 +85,7 @@ AWS Glue
 
 Amazon EC2
 
-Technical Tools:
+⚙️ Technical Tools:
 
 Python
 
@@ -94,7 +95,7 @@ Scikit-Learn
 
 US Census Data + Florida AHCA APIs
 
-Skills Applied:
+⚙️ Skills Applied:
 
 AI Clustering & Predictive Modeling
 
@@ -115,9 +116,6 @@ ROI on Expansion	Unknown	Projected 2.3× return on pilot phase
 The project enabled PPEC of Palm Beach to:
 
 Expand strategically into underserved communities
-
 Use AI evidence to justify grant & licensing decisions
-
 Plan outreach and staffing with maximum social impact
-
 Establish a repeatable data model for future PPEC locations
